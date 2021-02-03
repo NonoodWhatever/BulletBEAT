@@ -1,2 +1,7 @@
 Green Dot = Player Spawn point.
 Red area = Blocker.
+
+You may want to check on the NOTEFORMAPPLAN.txt for an updated one.
+
+The TestMap is rushed and uses paint to draw a map.
+The Future maps should use Photoshop for the sake of an improved map.

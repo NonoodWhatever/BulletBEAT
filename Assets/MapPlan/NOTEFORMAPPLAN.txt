@@ -1,0 +1,2 @@
+Green Dot = Player Spawn point.
+Red area = Blocker.

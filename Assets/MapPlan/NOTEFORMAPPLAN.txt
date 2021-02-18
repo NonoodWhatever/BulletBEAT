@@ -1,3 +1,11 @@
+Map visual:
+Darker area = Passable
+Lighter area = Impassable
+
+Enemy and Player should be light.
+Based on player and enemy sprite, all props should not be pixelated.
+
+For Dev.
 Green Dot = Player Spawn point.
 Red area = Blocker.
 
@@ -5,3 +13,5 @@ You may want to check on the NOTEFORMAPPLAN.txt for an updated one.
 
 The TestMap is rushed and uses paint to draw a map.
 The Future maps should use Photoshop for the sake of an improved map.
+
+Prop may be created and placed later in the map.

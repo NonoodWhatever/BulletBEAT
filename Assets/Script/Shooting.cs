@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Shooting : MonoBehaviour
 {
-    public bool canshoot = false;
     public Transform firepoint;
     public GameObject bulletprefab;
     // Start is called before the first frame update
@@ -13,16 +12,19 @@ public class Shooting : MonoBehaviour
     // Update is called once per frame
     void Start()
     {
-        StartCoroutine(Tool());
+        //StartCoroutine(Tool());
     }
 
     void Update()
     {
         if (Input.GetButtonDown("Fire1"))
         {
-            if(canshoot == true)
+            if(Gamecontroller.canshoot == true)
             {
+
+               
                 Shoot();
+
             }
                 
         }
@@ -35,7 +37,7 @@ public class Shooting : MonoBehaviour
         rb.AddForce(firepoint.up * bulletforce, ForceMode2D.Impulse);
     }
 
-    IEnumerator Tool()
+    /*IEnumerator Tool()
     {
         while (true)
         {
@@ -45,5 +47,6 @@ public class Shooting : MonoBehaviour
             yield return new WaitForSeconds(0.2f);
             canshoot = false;
         }
-    }
+    }*/
+   
 }

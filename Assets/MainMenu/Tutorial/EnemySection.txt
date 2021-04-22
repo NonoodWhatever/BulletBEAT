@@ -1,0 +1,10 @@
+This is you!
+------------
+This is the zombies, they'll try to walk around the map to attack you. they come in many colors.
+------------
+This is the eyeball, they float around to attack you
+------------
+This is the corrupted eyeball, they float around the map and shoots the pojectiles.
+------------
+This is boss. You may need to apply more bullets into it before it goes down.
+------------
